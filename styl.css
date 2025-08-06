@@ -109,9 +109,9 @@
 
    /* HERO FULLSCREEN STYLING */
 .hero {
-  height: 70vh;
+  height: 80vh;
   width: 100%;
-  background: url('uploads/hero\ section.jpg') center center;
+  background: url('uploads/hero\ section.jpg') center center/cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -712,6 +712,7 @@ form {
   .card featured p{
 color: #000;
   }
+
 
 
 
