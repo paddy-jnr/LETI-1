@@ -219,14 +219,14 @@ nav .logo {
     }
 
     .popup-card button {
-      background: #3ff275;
+      background: #007724;
       color: white;
       padding: 10px 20px;
       border: none;
       border-radius: 6px;
       cursor: pointer;
+      margin-top: 10px;
     }
-
     /* Responsive */
     @media (max-width: 768px) {
       .hero-content h1 {
@@ -322,9 +322,16 @@ nav .logo {
 if (overlay) {
   overlay.addEventListener('click', closeMenu);
 }
+function showPopup() {
+      document.getElementById('popup').style.display = 'flex';
+    }
 
+    function closePopup() {
+      document.getElementById('popup').style.display = 'none';
+    }
   </script>
 
 </body>
 </html>
+
 
