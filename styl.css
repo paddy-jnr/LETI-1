@@ -26,7 +26,10 @@
       font-size: 30px;
       font-weight: bold;
     }
-
+   .logo img{
+  height: 50px;
+  width: 110px;
+}
     .nav-links {
       display: flex;
       gap: 30px;
@@ -747,6 +750,7 @@ form {
   .card featured p{
 color: #000;
   }
+
 
 
 
