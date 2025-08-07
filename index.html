@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Leti - Eco Waste Service</title>
+  <title>LETi - Eco Waste Service</title>
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
@@ -16,7 +16,7 @@
 
   <!-- Navigation -->
   <nav>
-    <div class="logo">Leti</div>
+    <div class="logo">LETi</div>
     <div class="menu-icon" id="menu-icon">&#9776;</div>
     <ul class="nav-links">
       <li><a href="#hero">Home</a></li>
@@ -53,7 +53,10 @@
   <p data-aos="fade-up" data-aos-delay="200">
     Revolutionizing waste management in urban Nigeria with efficient, accessible, and eco-responsible solutions
   </p>
-  <button class="btn" data-aos="fade-up" data-aos-delay="400">Schedule a Pickup</button>
+  <button class="btn" data-aos="fade-up" data-aos-delay="400" onclick="window.location.href='schedule_pickup.html';">
+  Schedule a Pickup
+</button>
+
 </section>
 
 
@@ -104,52 +107,49 @@
   
 </div>
 
-  <!-- Our Services Section -->
-  <section class="section" id="services">
-    <div class="section-title" data-aos="fade-up">
-      <button>Our Services</button>
-    </div>
-   
-    <!-- OUR SERVICES SECTION -->
-<section id="services" class="services-section">
-  <div class="container">
-    <h2 class="section-title">Our Services</h2>
-    <p class="section-subtitle">We provide sustainable solutions for a cleaner environment.</p>
-    
-    <div class="card-container">
-      
-      <!-- Service Card 1 -->
-      <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+ <section class="services-section" id="services">
+  <div class="section-title" data-aos="fade-up">Our Services</div>
+  <div class="services-container">
 
-        <div class="image-box">
-          <img src="uploads/104846 2 (2).png" alt="Plastic Recycling">
-          <div class="icon-badge">♻️</div>
-        </div>
-        <div class="service-content">
-          <h3>Plastic Recycling</h3>
-          <p>We collect, process and transform plastic waste into reusable materials to keep the environment clean.</p>
-          <a href="#">See More →</a>
-        </div>
+    <div class="service-box light" data-aos="fade-up" data-aos-delay="100">
+      <div class="image-container">
+        <img src="uploads/WhatsApp Image 2025-08-06 at 23.24.54_7b4548ec.jpg" alt="Main Image" class="main-image">
+        <img src="icons/hugeicons_waste.png" alt="Icon" class="icon-badge">
       </div>
-
-      <!-- Service Card 2 -->
-<div class="service-card" data-aos="fade-up" data-aos-delay="100">
-        <div class="image-box">
-          <img src="uploads/group-happy-african-volunteers-with-garbage-bags-cleaning-area-park-africa-volunteering-charity-people-ecology-concept.jpg" alt="E-Waste Recycling">
-          <div class="icon-badge">🔌</div>
-        </div>
-        <div class="service-content">
-          <h3>E-Waste Recycling</h3>
-          <p>We safely handle and recycle electronic waste to protect human health and the environment.</p>
-          <a href="#">See More →</a>
-        </div>
-      </div>
-
-  
-
+      <h3>Waste Collection</h3>
+      <p>Regular and reliable pick-up of segregated waste categories (organics, recyclables, general waste) right from your doorstep.</p>
     </div>
+
+    <div class="service-box dark" data-aos="fade-up" data-aos-delay="200">
+      <div class="image-container">
+        <img src="uploads/WhatsApp Image 2025-08-06 at 23.24.55_37ab2709.jpg" alt="Main Image" class="main-image">
+        <img src="icons/hugeicons_waste (1).png" alt="Icon" class="icon-badge">
+      </div>
+      <h3>Recycling Programs</h3>
+      <p>Easy-to-use systems for separating plastics, paper, glass, and metals, with incentives to encourage participation.</p>
+    </div>
+
+    <div class="service-box light" data-aos="fade-up" data-aos-delay="300">
+      <div class="image-container">
+        <img src="uploads/WhatsApp Image 2025-08-06 at 23.28.02_6834bdbc.jpg" alt="Main Image" class="main-image">
+        <img src="icons/hugeicons_waste (2).png" alt="Icon" class="icon-badge">
+      </div>
+      <h3>Community Engagement</h3>
+      <p>Workshops, awareness campaigns, and partnerships with local groups to foster eco-consciousness and participation.</p>
+    </div>
+
+    <div class="service-box dark" data-aos="fade-up" data-aos-delay="400">
+      <div class="image-container">
+        <img src="uploads/WhatsApp Image 2025-08-06 at 23.24.51_ded0461a.jpg" alt="Main Image" class="main-image">
+        <img src="icons/hugeicons_waste (3).png" alt="Icon" class="icon-badge">
+      </div>
+      <h3>Digital Platform</h3>
+      <p>A user-friendly mobile app for scheduling pickups, tracking waste, accessing educational resources, and providing feedback.</p>
+    </div>
+
   </div>
 </section>
+
 
 
 
@@ -168,7 +168,7 @@
     </div>
     <div class="contact-right">
       <h2>We’re Here to Assist You<br> with Any Concerns</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+      <p>Get in touch with us today to learn how we can help you manage your waste responsibly and contribute to a cleaner Nigeria.</p>
       <form>
         <div class="input-group">
           <label for="name">Name*</label>
@@ -208,7 +208,7 @@
 
 <section class="pricing-section" style="background-color: #fafaf4;" id="plan">
   <h1>Choose Your Plan,<br>Manage Your Waste</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+ 
 
   <div class="pricing-cards">
     <!-- Residential -->
@@ -296,3 +296,4 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>
+
