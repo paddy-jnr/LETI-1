@@ -717,6 +717,8 @@ form {
   .featured button {
     background: #fafaf4;
     color: #245344;
+     width: 250px;
+    margin-top: 20px;
   }
 
   .featured button:hover {
@@ -745,6 +747,7 @@ form {
   .card featured p{
 color: #000;
   }
+
 
 
 
